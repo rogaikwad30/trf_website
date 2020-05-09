@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #E9ECEF;
+}
+    
+@font-face {
+    font-family: "potra";
+    src: url(Potra.ttf) format("truetype");
+}
+body{
+    background: black !important;
+}
+.container{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    box-shadow: 2px 1px 30px 10px #4d4dff;
+    background: #232224;
+    border-radius: 20px;
+}
+
+.opt{
+    margin: 10px;
+}
+
+.timer h1{
+    margin: 25px 34%;
+    letter-spacing: 5px;
+}
+
+.ques{
+    padding: 10px;
+    height: auto;
+    margin: 100px 50px;
+    margin-top: 6%;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 30px 1px #4d4dff;
+    border-radius: 10px;
+}
+
+.ques h2{
+    margin-top: 10px; 
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.details{
+    left: 70%;
+    top: 10%;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+}
+
+.quesno{
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    margin: 12px;
+    margin-left: 10px;
+    border: none;
+    background-color: #343A40;
+    color:#E9ECEF;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 2px #4d4dff;
+    outline: none !important;
+    transition: background 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.quiz-title{
+    margin-top: 20px;
+    color: #4d4dff !important;
+    box-shadow: 1px 1px 10px 2px #4d4dff;
+    margin-left: 0;
+    padding: 5px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+}
+.quiz-title h3{
+    margin: 0px;
+    font-family: "potra";
+    font-size: 35px !important;
+}
+.num{
+    margin-left: 8%;
+    margin-top: 10px;
+}
+.left_option{
+    left: 10%;
+    margin: 20px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+#next{
+    position: relative;
+    margin: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    background: #343A40;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: 1px;
+    border-radius: 10px;
+    color: #39ff14;
+    box-shadow: 1px 1px 3px 3px #39ff14;
+    transition: background 0.5s ease-out;
+    outline: none !important;
+} 
+#prev
+{
+    position: relative;
+    margin: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    background: #343A40;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: 1px;
+    color: #ccff00;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px #ccff00;
+    transition: background 0.5s ease-out;
+    outline: none !important;
+}
+#review{
+    position: relative;
+    margin: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    background: #343A40;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: 0;
+    color: #b92e34;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px #FB2B11;
+    transition: background 0.5s ease-out;
+    outline: none !important;
+}
+.submit_btn{
+    position: relative;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    padding: 5px 15px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    background: #343A40;
+    color: inherit;
+    box-shadow: 1px 1px 3px 3px #4d4dff;
+    outline: none !important;
+    transition: background 0.5s ease-out;
+    
+}
+#next:hover{
+    
+    background: #009900;
+    box-shadow: 1px 1px 3px 3px #E9ECEF;
+    color: #E9ECEF;
+}
+#review:hover{
+    background: #b92e34;
+    box-shadow: 1px 1px 3px 3px #E9ECEF;
+    color: #E9ECEF;
+}
+.submit_btn:hover{
+    
+    background: #4d4dff;
+    box-shadow: 1px 1px 3px 3px #E9ECEF;
+    text-decoration: none !important;
+    color: #E9ECEF !important;
+}
+.submit_btn a:hover{
+    text-decoration: none !important;
+    color: #E9ECEF !important;
+}
+#prev:hover{
+    
+    background: #a3862c;
+    box-shadow: 1px 1px 3px 3px #E9ECEF;
+    color: #E9ECEF;
+}
+.quesno:hover{
+    background: #4d4dff !important;
+    box-shadow: 1px 1px 3px 3px #E9ECEF !important;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img" style="background-color: coral;">
+                    <img src="images/logo.jpg" alt="" style="border-radius: 50%; margin-top: 10%; margin-left: 10%;">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2>student registration form</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><span id="star">* </span>Name :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name"><span id="star">* </span>General Registration Number :</label>
+                                <input type="text" name="father_name" id="father_name" required/>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><span id="star">* </span>E-Mail :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="state"><span id="star">* </span>Branch:</label>
+                                <div class="form-select">
+                                    <select name="state" id="state" required>
+                                        <option value=""></option>
+                                        <option value="us">Computer</option>
+                                        <option value="uk">E&amp;TC</option>
+                                        <option value="us">Electronics</option>
+                                        <option value="us">IT</option>
+                                        <option value="us">Mechanical</option>
+                                        <option value="us">Instrumentation</option>
+                                        <option value="us">Indus Prod</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label"><span id="star">* </span>Year :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="fy" checked>
+                                <label for="fy">FY</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="sy">
+                                <label for="sy">SY</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="ty">
+                                <label for="ty">TY</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="be">
+                                <label for="be">BE</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="father_name"><span id="star">* </span>Password :</label>
+                                <input type="text" name="father_name" id="father_name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name1"><span id="star">* </span>Recomfirm Password :</label>
+                                <input type="text" name="father_name1" id="father_name1" required/>
+                            </div>
+                        </div>
+                            <div class="form-group">
+                            <label for="story">Descrtiption:</label>
+
+                            <textarea id="story" name="story" rows="5" cols="50">
+                            </textarea>
+                            </div>  
+                            <div class="form-group">
+                                <label for="address">Linkedin Link :</label>
+                                <input type="text" name="address" id="address" />
+                            </div>  
+                            <div class="form-group">
+                                <label for="address">Github Link :</label>
+                                <input type="text" name="address" id="address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="pic">Profile Photo :</label>
+                                <input type="file" name="pic" accept="image/*" id="prof-img">
+                            </div>  
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

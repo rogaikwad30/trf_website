@@ -1,0 +1,145 @@
+        :root {
+          --black: #21252a;
+          --grey-1: #343A40;
+          --grey-2: #495057;
+          --grey-3: #868E96;
+          --grey-4: #ADB5BD;
+          --grey-5: #CED4DA;
+          --grey-6: #DEE2E6;
+          --grey-7: #E9ECEF;
+          --grey-8: #F1F3F5;
+          --grey-9: #F8F9FA;
+          --trans-black: rgba(33, 37, 42, .9);
+          --red: #e10600;
+          --gold: #ffda65;
+          --gold-dark: #a3862c;
+          --bronze: #c99355;
+          --bronze-dark: #80582c;
+        }
+
+        #title{
+            text-align: center; font-weight: bolder; 
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            text-align: center;
+            text-transform:uppercase;
+        }
+        .list {
+          width: 100%;
+          max-width: 600px;
+          margin: 3rem auto 3rem;
+          border-radius: .4rem;
+          box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.07);
+        }
+        @media screen and (max-width: 800px) {
+          .list {
+            margin: 0 auto;
+          }
+        }
+        .list__table {
+          width: 80% !important;
+         margin-left: 10%;
+          border-spacing: 0;
+          color: var(--grey-3);
+        }
+        .list__header {
+          padding: 3rem 2rem;
+          background: white;
+          border-top-left-radius: .4rem;
+          border-top-right-radius: .4rem;
+        }
+        .list__header h1, .list__header h5 {
+          margin: 0;
+          padding: 0;
+        }
+        .list__header h5 {
+          margin-bottom: .5rem;
+          text-transform: uppercase;
+          color: var(--red);
+        }
+        .list__value {
+          display: block;
+          font-size: 18px;
+            text-align: center;
+        }
+        .list__label {
+          font-size: 11px;
+          opacity: .6;
+        }
+        .list__row {
+          background: var(--grey-7);
+          cursor: pointer;
+          transition: all 300ms ease;
+        }
+        .first__row{
+            background: var(--grey-7);
+            color: black;
+            transition: all 300ms ease;
+            
+        }
+        .first__row span{
+            font-weight: bolder; 
+        }
+        .list__row:hover, .list__row:focus {
+          -webkit-transform: scale(1.05);
+                  transform: scale(1.05);
+          box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.08);
+          transition: all 300ms ease;
+        }
+        .list__row:not(:last-of-type) .list__cell {
+          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08);
+        }
+        .first__row:first-of-type {
+          color: black;
+          background: var(--grey-7);
+            
+        }
+        .first__row .list__cell:first-of-type {
+          background: var(--grey-7);
+        }
+        .list__row:nth-of-type(2) {
+          color: #68e37b;
+          background: var(--grey-9);
+            transform: scale(1); 
+            box-shadow: 0px 15px 28px rgba(0, 0, 0, 0.1), 0px 5px 12px rgba(0, 0, 0, 0.08);
+        }
+        .list__row:nth-of-type(2) .list__cell:first-of-type {
+          background: #68e37b;
+          color: var(--grey-2);
+        }
+        .list__row:nth-of-type(3) {
+          color: var(--gold-dark);
+          background: var(--grey-9);
+        }
+        .list__row:nth-of-type(3) .list__cell:first-of-type {
+          background: var(--gold);
+          color: var(--gold-dark);
+        }
+        .list__row:nth-of-type(4) {
+          color: var(--grey-2);
+          background: var(--grey-9);
+        }
+        .list__row:nth-of-type(4) .list__cell:first-of-type {
+          background: var(--grey-4);
+          color: var(--grey-2);
+        }
+        .list__row:nth-of-type(5) {
+          color: var(--bronze-dark);
+          background: var(--grey-9);
+        }
+        .list__row:nth-of-type(5) .list__cell:first-of-type {
+          background: var(--bronze);
+          color: var(--bronze-dark);
+        }
+        .list__cell {
+          padding: 1rem;
+        }
+        .list__cell:first-of-type {
+          text-align: center;
+          padding: 1rem .2rem;
+          background: var(--grey-5);
+        }
+/*----------------------------------------------------DROPDOWN CSS----------------------------------------------------*/
+
+/*------------------------------RADIO BUTTONS CSS--------------------------------------------------------------------------------*/
+
