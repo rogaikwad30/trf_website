@@ -177,6 +177,7 @@ img.emoji {
                 div.wpcf7-response-output{
                     position: initial;
                 }
+
             }
         </style>
         <style>
@@ -295,6 +296,19 @@ img.emoji {
     cursor: pointer;
 }
 
+.modal-link-new{
+    text-decortion:none; 
+    float:left; 
+    margin-left:34px; 
+    margin-top:26px;
+}
+.modal-link-forget{ 
+    text-decortion:none; 
+    float:right; 
+    margin-right:34px; 
+    margin-top:26px;
+}
+
 /* Add Zoom Animation */
 .animate {
     animation: zoom 0.6s
@@ -317,7 +331,25 @@ img.emoji {
         .avatar{
             margin-left:14%;
         }
+        .modal-link-new{
+        margin-left:5px;
+        font-size: 14px;
+        }
+        .modal-link-forget{ 
+            margin-right:5px;
+            font-size: 14px;
+        }
 }
+/*@media(min-width: 500px){
+    .modal-link-new{
+        margin-left:5px;
+        font-size: 14px;
+    }
+    .modal-link-forget{ 
+        margin-right:5px;
+        font-size: 14px;
+    }
+}*/
   
 .blgimg{
     max-width:100%;
@@ -345,7 +377,8 @@ img.emoji {
       <input id="usr" type="text" placeholder="Enter Username" name="username">
       <input id="pasw" type="password" placeholder="Enter Password" name="password">        
       <button id="btn" type="submit" onclick="subform()">Login</button>
-      <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+      <a href="#" class="modal-link-forget">Forgot Password ?</a>
+      <a href="cms1/user_new_register.php" class="modal-link-new">Create new account?</a>
     </div>
     
   </form>
@@ -363,10 +396,11 @@ img.emoji {
                     </a>
                     <div class="main__nav_holder" id="tpnav">
                         <ul class="main__navigation navigation--margin">
-							<li onclick="javascript:location.href='cms1/search4.php'" ><a href="">Project Tables</a></li>
+                            <li onclick="javascript:location.href='cms1/gsoc_info.php'" ><a href="">GSoC</li>
+							<li onclick="javascript:location.href='cms1/search4.php'" ><a href="">Projects</a></li>
 							<li onclick="javascript:location.href='blogs/index.php'" ><a href="">Blogs</a></li>
 							<li onclick="javascript:location.href='cms1/quiz_mainpage1.php'" ><a href="">Quiz</a></li>
-                            <li onclick="javascript:location.href='cms1/devpage3.php'"><a href="">Developer's Page</a></li>
+                            <li onclick="javascript:location.href='cms1/devpage3.php'"><a href="">Developers</a></li>
                              <?php   if(!isset($_SESSION['user_id']))
 						{?>
                                                             <li>
@@ -535,7 +569,7 @@ ROBOTICS FORUM</h1>
                                                                                 <a onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" class="works__item works__item--white">
                                                 <div class="inline works--inline">
                                                     <figure>
-                                                        <img src="https://vitpunerobotics.com/cms1/admin/images/stt.png" class="projimg">
+                                                        <img src="cms1/admin/images/stt.png" class="projimg">
                                                     </figure>
                                                     <div class="works__text">
                                                         <h3>SPEECH RECOGNITION</h3>
@@ -546,7 +580,7 @@ ROBOTICS FORUM</h1>
                                                                                 <a onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)" class="works__item ">
                                                 <div class="inline works--inline">
                                                     <figure>
-                                                        <img src="https://vitpunerobotics.com/cms1/admin/images/senor%20on%20web.jpg" class="projimg">
+                                                        <img src="cms1/admin/images/senor%20on%20web.jpg" class="projimg">
                                                     </figure>
                                                     <div class="works__text">
                                                         <h3>Storing data to database collected from sensor</h3>
@@ -557,7 +591,7 @@ ROBOTICS FORUM</h1>
                                                                                 <a onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)" class="works__item ">
                                                 <div class="inline works--inline">
                                                     <figure>
-                                                        <img src="https://vitpunerobotics.com/cms1/admin/images/5DOF.jpg"class="projimg">
+                                                        <img src="cms1/admin/images/5DOF.jpg"class="projimg">
                                                     </figure>
                                                     <div class="works__text">
                                                         <h3>5 D.O.F. Gripper and Lifting Mechanism</h3>
@@ -568,7 +602,7 @@ ROBOTICS FORUM</h1>
                                                                                 <a onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" class="works__item works__item--white">
                                                 <div class="inline works--inline">
                                                     <figure>
-                                                        <img src="https://vitpunerobotics.com/cms1/admin/images/Vivek_Akhil.jpg" class="projimg">
+                                                        <img src="cms1/admin/images/Vivek_Akhil.jpg" class="projimg">
                                                     </figure>
                                                     <div class="works__text">
                                                         <h3>Image Classification Using AI</h3>
