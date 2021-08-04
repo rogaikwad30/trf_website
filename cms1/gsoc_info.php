@@ -176,12 +176,12 @@ session_start();
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link headeranchors" href="search4.php" style="clor: red;font-size:17px;">Projects</a>
+                                <a class="nav-link headeranchors" href="/#projects" style="clor: red;font-size:17px;">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link headeranchors" href="../blogs/index.php" style="font-size:17px;">Blogs</a>
+                                <a class="nav-link headeranchors" href="/#blogs" style="font-size:17px;">Blogs</a>
                             </li>
-                            <li class="nav-item dropdown">
+                           <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle headeranchors" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px;">
                                     Quiz
                                 </a>
@@ -189,7 +189,7 @@ session_start();
                                     <a class="dropdown-item headeranchors" href="quiz_mainpage1.php" style="background:none !important;font-size:17px;">Quizzes</a>
                                     <a class="dropdown-item headeranchors" href="leaderboard3.php" style="background:none !important;font-size:17px;">Leaderboard</a>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="nav-item active">
                                 <a class="nav-link headeranchors" href="devpage3.php" style="font-size:17px;">Developers</a>
                             </li>
@@ -199,9 +199,9 @@ session_start();
                            <!-- <li class="nav-item">
                                 <a class="nav-link headeranchors" href="javascript:void(0)" onclick="document.getElementById('modal-wrapper').style.display='block'" style="font-size:17px;">Login</a>
                             </li>-->
-                            <li class="nav-item">
+                          <!--  <li class="nav-item">
                                 <a class="nav-link headeranchors" href="javascript:void(0)" onclick="document.getElementById('modal-wrapper').style.display='block'"  style="font-size:17px;">Login</a>
-                            </li>
+                            </li> -->
                             <?php }
             ?>
                             <?php //include("includes/header.php");
