@@ -619,21 +619,23 @@ ROBOTICS FORUM</h1>
                                     <div class="block stories block--padding block--border block--border" id="stories">
                             <div class="container">
                                 <h2 class="block__title"style="text-align: center;" id="blogs">BLOGS</h2>
-                                                                        <a onclick="switchTransitionPages('cms1/post.php?p_id=155', false)" class="stories__item"> 
+                                                                 <!--  onclick="switchTransitionPages('cms1/post.php?p_id=155', false)" -->      <a  class="stories__item"> 
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/bhaau3 0.jpg" data-src="cms1/admin/images/bhaau3 0.jpg" alt="">
                                             </figure>
                                             <span>September 11, 2019</span>
                                             <h3>Making of BHAU 3.0</h3>
                                         </a>
-                                                                        <a onclick="switchTransitionPages('cms1/post.php?p_id=153', false)" class="stories__item">  
+                                        <!--onclick="switchTransitionPages('cms1/post.php?p_id=153', false)"   -->
+                                                                        <a class="stories__item">  
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/image.jpg" data-src="cms1/admin/images/image.jpg" alt="">
                                             </figure>
                                             <span>September 11, 2019</span>
                                             <h3>Artificial Intelligence Products: Common Misconceptions</h3>
                                         </a>
-                                                                         <a onclick="switchTransitionPages('cms1/post.php?p_id=154', false)" class="stories__item">  
+                                        <!--onclick="switchTransitionPages('cms1/post.php?p_id=154', false)" -->
+                                                                         <a  class="stories__item">  
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/git.jpeg"  data-src="cms1/admin/images/git.jpeg" alt="">
                                             </figure>
