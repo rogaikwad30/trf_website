@@ -332,9 +332,9 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
 						<?php //include("includes/header.php");
 						if(!isset($_SESSION['user_id']))
 						{?>
-                        <li class="nav-item">
+                       <!-- <li class="nav-item">
                             <a class="nav-link headeranchors" href="javascript:void(0)" onclick="document.getElementById('modal-wrapper').style.display='block'" style="font-size:17px;" >Login</a>
-                        </li>
+                        </li> -->
 						<?php }
 						?>
 						<?php //include("includes/header.php");
