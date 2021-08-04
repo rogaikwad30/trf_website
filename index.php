@@ -357,9 +357,9 @@ img.emoji {
     height:300px;
 }
 .projimg{
-    max-width:100%;
-    width:100%;
-    height:500px;
+    max-width:80%;
+    width:90%;
+    height:440px;
 }
         </style>
         
@@ -448,14 +448,14 @@ ROBOTICS FORUM</h1>
                     <p style="line-height: 1.3;">"By the students, For the students"<br />
                         We welcome you for a cohesive learning experience with<br />
                         Technology Rigour Faith</p>
-                    <button onclick="switchTransitionPages('#', false)" class="button button--main">Get to know us</button>
+                    <button onclick="switchTransitionPages('#about_us', false)" class="button button--main">Get to know us</button>
                 </div>
             </div>
         </div>
 
         <div class="block--content" id="myDIV">
             <div class="block moto block--padding" id="moto">
-                <div class="container">
+                <div class="container" id="about_us">
                     <h2 class="block__title" style="visibility: visible !important; text-align: center; opacity: 1 !important;">ABOUT US</h2>
                     <br>
                     <h2 class="block__title" style="text-align: center; margin-right: 0px !important; text-transform:none;">A forum, with a legacy of 12 years, dedicatedly working in the field of robotics to discover greater heights &amp; explore newer dimensions. We organise workshops &amp; guest lectures to commemorate knowledge &amp; hands on experience.</h2>
@@ -563,8 +563,8 @@ ROBOTICS FORUM</h1>
                                     </div>
             </div>
                                     <div class="block works block--padding " id="works">
-                            <div class="container">
-                                <h2 class="block__title" style="text-align: center;" id="projects">Selected Projects</h2>
+                            <div class="container" id="projects">
+                                <h2 class="block__title" style="text-align: center;" >Selected Projects</h2>
                                 <div class="grid-item">
                                                                                 <!--onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" -->
                                                                                 <a  class="works__item works__item--white">  
