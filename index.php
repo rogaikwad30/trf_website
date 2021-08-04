@@ -357,8 +357,8 @@ img.emoji {
     height:300px;
 }
 .projimg{
-    max-width:80%;
-    width:90%;
+    max-width:100%;
+    width:100%;
     height:440px;
 }
         </style>
@@ -567,7 +567,7 @@ ROBOTICS FORUM</h1>
                                 <h2 class="block__title" style="text-align: center;" >Selected Projects</h2>
                                 <div class="grid-item">
                                                                                 <!--onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" -->
-                                                                                <a  class="works__item works__item--white">  
+                                                                                <a  class="m-5 works__item works__item--white">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/stt.png" class="projimg">
@@ -579,7 +579,7 @@ ROBOTICS FORUM</h1>
                                                 </div>
                                             </a>
                                             <!-- onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)"  -->
-                                                                                <a class="works__item ">  
+                                                                                <a class="m-5 works__item ">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/senor%20on%20web.jpg" class="projimg">
@@ -591,7 +591,7 @@ ROBOTICS FORUM</h1>
                                                 </div>
                                             </a>
                                             <!-- onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)"-->
-                                                                                <a  class="works__item ">  
+                                                                                <a  class="m-5 works__item ">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/5DOF.jpg"class="projimg">
@@ -602,7 +602,7 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                   <!--onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" -->              <a class="works__item works__item--white">  
+                                                                   <!--onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" -->              <a class="m-5 works__item works__item--white">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/Vivek_Akhil.jpg" class="projimg">
@@ -675,8 +675,8 @@ ROBOTICS FORUM</h1>
                                                             
                 </li>
                 <li>
-                    <a onclick="switchTransitionPages('theroboticsforumvitpune@gmail.com', false)" href="/cdn-cgi/l/email-protection#c0e0a9aea6af80a6b2a1abb4afaeeea3afad"><span class="__cf_email__" data-cfemail="234a4d454c6345514248574c4d0d404c4e">theroboticsforumvitpune@gmail.com</span></a>
-                    <a>7020787632</a>
+                    <a onclick="switchTransitionPages('theroboticsforumvitpune@gmail.com', false)" href="/cdn-cgi/l/email-protection#c0e0a9aea6af80a6b2a1abb4afaeeea3afad"><span class="__cf_email__" data-cfemail="234a4d454c6345514248574c4d0d404c4e">robotics.forum@vit.edu</span></a>
+                    <a>+91 9096938465</a>
                 </li>
                 <li>
                     <p>The Robotics Forum
