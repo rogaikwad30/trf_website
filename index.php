@@ -448,7 +448,7 @@ ROBOTICS FORUM</h1>
                     <p style="line-height: 1.3;">"By the students, For the students"<br />
                         We welcome you for a cohesive learning experience with<br />
                         Technology Rigour Faith</p>
-                    <button onclick="switchTransitionPages('#about_us', false)" class="button button--main">Get to know us</button>
+                    <a href="#about_us" class="button button--main">Get to know us</a>
                 </div>
             </div>
         </div>
