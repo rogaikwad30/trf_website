@@ -397,9 +397,9 @@ img.emoji {
                     <div class="main__nav_holder" id="tpnav">
                         <ul class="main__navigation navigation--margin">
                             <li onclick="javascript:location.href='cms1/gsoc_info.php'" ><a href="">GSoC</li>
-							<li onclick="javascript:location.href='cms1/search4.php'" ><a href="">Projects</a></li>
-							<li onclick="javascript:location.href='blogs/index.php'" ><a href="">Blogs</a></li>
-							<li onclick="javascript:location.href='cms1/quiz_mainpage1.php'" ><a href="">Quiz</a></li>
+							<!-- <li onclick="javascript:location.href='cms1/search4.php'" ><a href="">Projects</a></li> 
+							<li onclick="javascript:location.href='blogs/index.php'" ><a href="">Blogs</a></li> 
+							<li onclick="javascript:location.href='cms1/quiz_mainpage1.php'" ><a href="">Quiz</a></li>  -->
                             <li onclick="javascript:location.href='cms1/devpage3.php'"><a href="">Developers</a></li>
                              <?php   if(!isset($_SESSION['user_id']))
 						{?>
