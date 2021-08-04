@@ -1738,9 +1738,9 @@ html .container-flex {
 }
 
 .works__item {
-    float: left;
+    float: center;
     position: relative;
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     cursor: pointer;
     -webkit-transition: all .3s ease-in-out;
