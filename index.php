@@ -566,7 +566,8 @@ ROBOTICS FORUM</h1>
                             <div class="container">
                                 <h2 class="block__title" style="text-align: center;" id="projects">Selected Projects</h2>
                                 <div class="grid-item">
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" class="works__item works__item--white">  
+                                                                                <!--onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" -->
+                                                                                <a  class="works__item works__item--white">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/stt.png" class="projimg">
@@ -577,7 +578,8 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)" class="works__item ">  
+                                            <!-- onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)"  -->
+                                                                                <a class="works__item ">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/senor%20on%20web.jpg" class="projimg">
@@ -588,7 +590,8 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)" class="works__item ">  
+                                            <!-- onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)"-->
+                                                                                <a  class="works__item ">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/5DOF.jpg"class="projimg">
@@ -599,7 +602,7 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                 <a onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" class="works__item works__item--white">  
+                                                                   <!--onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" -->              <a class="works__item works__item--white">  
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/Vivek_Akhil.jpg" class="projimg">
