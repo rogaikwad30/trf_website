@@ -311,12 +311,12 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
                      <ul class="navbar-nav">
                         
                         <li class="nav-item">
-                           <a class="nav-link headeranchors"  href="search4.php" style="font-size:17px;">Project Tables</a>
+                           <a class="nav-link headeranchors"  href="/" style="font-size:17px;">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link headeranchors"  href="../blogs/index.php" style="font-size:17px;">Blogs</a>
+                           <a class="nav-link headeranchors"  href="/#blogs" style="font-size:17px;">Blogs</a>
                         </li>
-                        <li class="nav-item dropdown">
+                       <!-- <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle headeranchors" href="#" id="navbarDropdown" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:17px;">
                               Quiz
@@ -325,7 +325,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
                               <a class="dropdown-item headeranchors" href="quiz_mainpage1.php" style="background:none !important;font-size:17px;">Quizes</a>
                               <a class="dropdown-item headeranchors" href="leaderboard3.php" style="background:none !important;font-size:17px;">Leaderboard</a>
                            </div>
-                        </li>
+                        </li> -->
 						<li class="nav-item active">
                            <a class="nav-link headeranchors" href="index.html" style="font-size:17px; color: red;">Developer's Page</a>
                         </li>
