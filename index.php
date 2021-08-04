@@ -397,14 +397,14 @@ img.emoji {
                     <div class="main__nav_holder" id="tpnav">
                         <ul class="main__navigation navigation--margin">
                             <li onclick="javascript:location.href='cms1/gsoc_info.php'" ><a href="">GSoC</li>
-							<!-- <li onclick="javascript:location.href='cms1/search4.php'" ><a href="">Projects</a></li> 
-							<li onclick="javascript:location.href='blogs/index.php'" ><a href="">Blogs</a></li> 
-							<li onclick="javascript:location.href='cms1/quiz_mainpage1.php'" ><a href="">Quiz</a></li>  -->
+							<li onclick="javascript:location.href='#projects'" ><a href="">Projects</a></li> 
+							<li onclick="javascript:location.href='#blogs'" ><a href="">Blogs</a></li>  
+							<!--<li onclick="javascript:location.href='cms1/quiz_mainpage1.php'" ><a href="">Quiz</a></li> -->
                             <li onclick="javascript:location.href='cms1/devpage3.php'"><a href="">Developers</a></li>
                              <?php   if(!isset($_SESSION['user_id']))
 						{?>
                                                             <li>
-                                    <button  onclick="lgin()" class="button button--small button--border button--header"></button>
+                                   <!-- <button  onclick="lgin()" class="button button--small button--border button--header"></button> -->
                                 </li> 
                             <?php 
                             }
@@ -564,9 +564,9 @@ ROBOTICS FORUM</h1>
             </div>
                                     <div class="block works block--padding " id="works">
                             <div class="container">
-                                <h2 class="block__title" style="text-align: center;">Selected Projects</h2>
+                                <h2 class="block__title" style="text-align: center;" id="projects">Selected Projects</h2>
                                 <div class="grid-item">
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" class="works__item works__item--white">
+                                                                               <!-- <a onclick="switchTransitionPages('cms1/project_display.php?link=SPEECH%20RECOGNISER', false)" class="works__item works__item--white"> -->
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/stt.png" class="projimg">
@@ -577,7 +577,7 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)" class="works__item ">
+                                                                               <!--  <a onclick="switchTransitionPages('cms1/project_display.php?link=STORING%20DATA%20TO%20DATABASE%20COLLECTED%20FROM%20SENSOR', false)" class="works__item "> -->
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/senor%20on%20web.jpg" class="projimg">
@@ -588,7 +588,7 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)" class="works__item ">
+                                                                               <!-- <a onclick="switchTransitionPages('cms1/project_display.php?link=5%20D.O.F.%20Gripper%20and%20Lifting%20Mechanism', false)" class="works__item "> -->
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/5DOF.jpg"class="projimg">
@@ -599,7 +599,7 @@ ROBOTICS FORUM</h1>
                                                     </div>
                                                 </div>
                                             </a>
-                                                                                <a onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" class="works__item works__item--white">
+                                                                                <!-- <a onclick="switchTransitionPages('cms1/project_display.php?link=IMAGE%20CLASSIFICATION%20USING%20DEEP%20LEARNING%20AND%20AI', false)" class="works__item works__item--white"> -->
                                                 <div class="inline works--inline">
                                                     <figure>
                                                         <img src="cms1/admin/images/Vivek_Akhil.jpg" class="projimg">
@@ -615,22 +615,22 @@ ROBOTICS FORUM</h1>
                         </div>
                                     <div class="block stories block--padding block--border block--border" id="stories">
                             <div class="container">
-                                <h2 class="block__title"style="text-align: center;">BLOGS</h2>
-                                                                        <a onclick="switchTransitionPages('cms1/post.php?p_id=155', false)" class="stories__item">
+                                <h2 class="block__title"style="text-align: center;" id="blogs">BLOGS</h2>
+                                                                       <!-- <a onclick="switchTransitionPages('cms1/post.php?p_id=155', false)" class="stories__item"> -->
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/bhaau3 0.jpg" data-src="cms1/admin/images/bhaau3 0.jpg" alt="">
                                             </figure>
                                             <span>September 11, 2019</span>
                                             <h3>Making of BHAU 3.0</h3>
                                         </a>
-                                                                        <a onclick="switchTransitionPages('cms1/post.php?p_id=153', false)" class="stories__item">
+                                                                      <!--  <a onclick="switchTransitionPages('cms1/post.php?p_id=153', false)" class="stories__item"> -->
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/image.jpg" data-src="cms1/admin/images/image.jpg" alt="">
                                             </figure>
                                             <span>September 11, 2019</span>
                                             <h3>Artificial Intelligence Products: Common Misconceptions</h3>
                                         </a>
-                                                                        <a onclick="switchTransitionPages('cms1/post.php?p_id=154', false)" class="stories__item">
+                                                                       <!-- <a onclick="switchTransitionPages('cms1/post.php?p_id=154', false)" class="stories__item">  -->
                                             <figure>
                                                 <img class="asyncImage blgimg" src="cms1/admin/images/git.jpeg"  data-src="cms1/admin/images/git.jpeg" alt="">
                                             </figure>
